@@ -12,11 +12,9 @@ Experiments employ the AOPC (Average Output Probability Change) metric to measur
 ### Qualitative Evaluation:
 Visual comparisons demonstrate that our SMER+LLM workflow delivers more coherent and interpretable object-level explanations compared to existing techniques. 🎨
 ### Reproducibility: 
-All code, data processing scripts, and detailed instructions for reproducing the results are included. 🔄
-Getting Started
-
+All code, data processing scripts, and detailed instructions for reproducing the results are included. 
+____________________________
 For complete setup instructions, experiment details, and how to replicate our evaluations, please refer to the README.md.
-
 Contributions, feedback, and collaborations are highly welcome. Let's make explainable AI even more exciting! 🎉
 
 Enjoy exploring the repository!
