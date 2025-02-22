@@ -6,7 +6,7 @@ This repository contains the code and experiments, which focuses on enhancing ex
 ### SMER+LLM Workflow: 
 Combines SMER's direct evaluation of region importance with the interpretative power of LLMs to generate precise bounding boxes and coherent visual explanations. 🔍
 1. Get Description of the Images
-Extract textual descriptions from the images using image captioning code here [View Notebook]([https://your-link-here.com](https://github.com/PotipJulia/Explainable_image_classification_SMER/blob/main/Get_image_description.ipynb)).
+Extract textual descriptions from the images using image captioning code here [View Notebook]([https://your-link-here.com](https://github.com/PotipJulia/Explainable_image_classification_SMER/blob/main/Get_image_description.ipynb).
 
 Get Embeddings and Aggregate
 Generate embeddings from the image descriptions and aggregate them for downstream analysis.
