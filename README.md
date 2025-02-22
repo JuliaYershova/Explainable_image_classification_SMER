@@ -5,6 +5,15 @@ This repository contains the code and experiments, which focuses on enhancing ex
 ## Overview
 ### SMER+LLM Workflow: 
 Combines SMER's direct evaluation of region importance with the interpretative power of LLMs to generate precise bounding boxes and coherent visual explanations. 🔍
+1. Get Description of the Images
+Extract textual descriptions from the images using image captioning code here [View Notebook]([https://your-link-here.com](https://github.com/PotipJulia/Explainable_image_classification_SMER/blob/main/Get_image_description.ipynb)).
+
+Get Embeddings and Aggregate
+Generate embeddings from the image descriptions and aggregate them for downstream analysis.
+View Notebook
+
+Train Logistic Regression, Get Importance Concepts using SMER and LIME, Calculate AOPC, and Compare
+Train a logistic regression model to predict class labels, then use SMER and LIME to extract importance concepts. Calculate the AOPC metric to evaluate the interpretability of the predictions.
 ### Method Comparisons: 
 Includes implementations and evaluations of alternative explanation methods such as LIME and MoRF (Most Relevant First). These methods are applied both directly on images and using a ResNet classifier for a comprehensive comparison. ⚖️
 ### Quantitative Evaluation: 
