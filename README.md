@@ -5,7 +5,6 @@ This repository contains the code and experiments, which focuses on enhancing ex
 ## Overview
 ### SMER+LLM Workflow: 
 Combines SMER's direct evaluation of region importance with the interpretative power of LLMs to generate precise bounding boxes and coherent visual explanations. 🔍
-1. https://github.com/PotipJulia/Explainable_image_classification_SMER/blob/main/Get_image_description.ipynb
 ### Method Comparisons: 
 Includes implementations and evaluations of alternative explanation methods such as LIME and MoRF (Most Relevant First). These methods are applied both directly on images and using a ResNet classifier for a comprehensive comparison. ⚖️
 ### Quantitative Evaluation: 
