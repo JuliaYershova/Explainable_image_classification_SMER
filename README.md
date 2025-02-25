@@ -12,10 +12,15 @@ Extract textual descriptions from the images using image captioning code.[here](
 Generate embeddings from the image descriptions and aggregate them for downstream analysis.[here](https://github.com/PotipJulia/Explainable_image_classification_SMER/blob/main/Get_embeddings_and_aggregate.ipynb)
 
 3. Train Logistic Regression, Get Importance Concepts using SMER and LIME, Calculate AOPC  and compare
-Train a logistic regression model to predict class labels, then use SMER and LIME to extract importance concepts. Calculate the AOPC metric to evaluate the interpretability of the predictions. [here](https://github.com/PotipJulia/Explainable_image_classification_SMER/blob/main/Train_LR_plot_AOPC.ipynb)
+Train a logistic regression model to predict class labels, then use SMER and LIME to extract importance concepts. Calculate the AOPC metric to evaluate the interpretability of the predictions. [here](https://github.com/PotipJulia/Explainable_image_classification_SMER/blob/main/Train_LR_plot_AOPC.ipynb).
+
+4. Compare SMER+LLM and LIME
+Code for comparison between SMER+LLM and LIME (based on Logistic Regression) is [here](https://github.com/PotipJulia/Explainable_image_classification_SMER/blob/main/LIME_for_images(LR).ipynb).
 
 ### Method Comparisons: 
 Includes implementations and evaluations of alternative explanation methods such as LIME and MoRF (Most Relevant First). These methods are applied both directly on images and using a ResNet classifier for a comprehensive comparison. ⚖️
+- Code for experiments with LIME is [here](https://github.com/PotipJulia/Explainable_image_classification_SMER/blob/main/LIME_for_images(ResNet).ipynb)
+- Code for experiment with MoRF is [here](https://github.com/PotipJulia/Explainable_image_classification_SMER/blob/main/MoRF_for_images(ResNet).ipynb)
 ### Quantitative Evaluation: 
 Experiments employ the AOPC (Average Output Probability Change) metric to measure the impact of removing influential features, validating the reliability of our approach. 📊
 ### Qualitative Evaluation:
