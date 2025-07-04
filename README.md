@@ -17,9 +17,9 @@ Train a logistic regression model to predict class labels, then use SMER and LIM
 5. Compare SMER+LLM and LIM (based on Logistic Regression).[here](https://github.com/PotipJulia/Explainable_image_classification_SMER/blob/main/LIME_for_images(LR).ipynb).
 
 ### Method Comparisons: 
-Includes implementations and evaluations of alternative explanation methods such as LIME and MoRF (Most Relevant First). These methods are applied both directly on images and using a ResNet classifier for a comprehensive comparison. ⚖️
+Includes implementations and evaluations of alternative explanation methods such as LIME and Grad-CAM (Gradient-weighted Class Activation Mapping). These methods are applied both directly on images and using a ResNet classifier for a comprehensive comparison. ⚖️
 - Code for experiments with LIME is [here](https://github.com/PotipJulia/Explainable_image_classification_SMER/blob/main/LIME_for_images(ResNet).ipynb)
-- Code for experiment with MoRF is [here](https://github.com/PotipJulia/Explainable_image_classification_SMER/blob/main/MoRF_for_images(ResNet).ipynb)
+- Code for experiment with Grad-CAM is [here](https://github.com/PotipJulia/Explainable_image_classification_SMER/blob/main/Grad-CAM_for_images(ResNet).ipynb)
 ### Quantitative Evaluation: 
 Experiments employ the AOPC (Average Output Probability Change) metric to measure the impact of removing influential features, validating the reliability of our approach. 📊
 ### Qualitative Evaluation:
